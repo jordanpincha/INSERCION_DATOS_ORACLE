@@ -1,0 +1,20 @@
+select * from CLIENTE;
+
+insert into CLIENTE values (1,'ARMANDO','ZAMORA','TARQUI','098654226');
+insert into CLIENTE values (2,'MARCELA','CEVALLOS','CUBA','098756421');
+insert into CLIENTE values (3,'FERNANDO','MOSQUERA','SANTA MARTHA','0987525745');
+insert into CLIENTE values (4,'SOLEDAD','MARTINEZ','BELLAVISTA','098654254');
+insert into CLIENTE values (5,'JAIME','MOREIRA','CORVOBA','098652335');
+
+select * from VETERINARIO;
+
+insert into VETERINARIO values (1,'panchito','perez','calle 13','0987654321');
+insert into VETERINARIO values (2,'JOSE','zamabrano','calle 8','098653254');
+
+select * from MASCOTA;
+
+insert into MASCOTA values (1,1,'cafe','golden');
+insert into MASCOTA values (2,1,'negro','doverman');
+insert into MASCOTA values (3,2,'blanco','chihuahua');
+insert into MASCOTA values (4,2,'blanco y negro','dalmata');
+insert into MASCOTA values (5,1,'cafe con blanco','SanBernardo');
